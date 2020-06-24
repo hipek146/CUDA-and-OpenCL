@@ -1,0 +1,3 @@
+/home/cuda-lab06/project/build/CMakeFiles/rebuild_cache.dir
+/home/cuda-lab06/project/build/CMakeFiles/edit_cache.dir
+/home/cuda-lab06/project/build/CMakeFiles/vec_mat_alg.dir

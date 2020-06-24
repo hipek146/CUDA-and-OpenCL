@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/api_header.h
+
+../include/common_header.h
+
+../include/matrix_header.h
+
+../include/util_header.h
+cuda.h
+-
+curand_kernel.h
+-
+
+../include/vector_header.h
+
+/home/cuda-lab06/project/src/api_implement.cu
+stdio.h
+-
+stdlib.h
+-
+api_header.h
+/home/cuda-lab06/project/src/api_header.h
+util_header.h
+/home/cuda-lab06/project/src/util_header.h
+common_header.h
+/home/cuda-lab06/project/src/common_header.h
+vector_header.h
+/home/cuda-lab06/project/src/vector_header.h
+matrix_header.h
+/home/cuda-lab06/project/src/matrix_header.h
+fstream
+-
+iostream
+-
+
